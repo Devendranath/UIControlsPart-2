@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var loader: UIActivityIndicatorView!
-    
+     
     @IBAction func handleSegmentedControl(_ sender: Any) {
         let segmentedControl = sender as! UISegmentedControl
         print("Segmented control selected!: \(segmentedControl.selectedSegmentIndex)")
